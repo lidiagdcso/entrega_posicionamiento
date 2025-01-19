@@ -11,17 +11,17 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-color: #000000;
-  color: #9ad79b;
+  background-color: moccasin;
+  color: #55423d;
 }
 
 header {
   position: fixed;
   top: 0;
-  background-color: black;
+  background-color: moccasin;
   width: 100%;
   padding: 0px 10px 10px 10px;
-  border: 1px dashed #9ad79b;
+  border: 1px dashed #55423d;
   z-index: 3;
 }
 
@@ -29,38 +29,47 @@ header {
   position: relative;
   top: 50px;
   width: 100%;
-  border: 1px dashed #9ad79b;
+  border: 1px dashed #55423d;
   margin: 30px 0px;
   padding: 20px;
 }
 
+button {
+  padding: 5px;
+  color: #55423d;
+  background-color: #ffc0ad;
+  box-shadow: 8px 8px 10px #55423d;
+}
 .sidebar {
   position: relative;
   left: 90%;
   top: 50px;
   margin-bottom: 30px;
   width: 150px;
-  border: 1px dashed #9ad79b;
+  border: 1px dashed #55423d;
   text-align: center;
   padding: 20px;
 }
 ul {
   list-style-position: inside;
+  text-align: left;
 }
 .features {
   position: relative;
   top: 50px;
   width: 100%;
-  border: 1px dashed #9ad79b;
+  border: 1px dashed #55423d;
   text-align: center;
   padding: 20px;
 }
+
 footer {
   position: relative;
   top: 300px;
   z-index: 1;
   width: 100%;
-  border: 1px dashed #9ad79b;
+  border: 1px dashed #55423d;
   padding: 20px;
   text-align: center;
+  font-weight: bold;
 }
